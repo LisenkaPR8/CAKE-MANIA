@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+	<title>CAKE-MANIA</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+	
+	<!--Javascript link-->
+	<script src="javascript/script.js"></script>
+	
+	<!--Stylesheet link-->
+	<link rel="stylesheet" type="text/css" href="CSS/style.css">
+</head>
+<body>
+	<div id="hamburger_menu"><img alt="" src="Images/Hamburger 2.png"></div>
+	
+	<div id="nav">
+		<ul>
+			<li id="close_menu">X</li>
+			<a href="index.html"><li class="nav_item">HOME</li></a>
+			<a href="over_mij.html"><li class="nav_item">OVER MIJ</li></a>
+			<a href="recepten.html"><li class="nav_item">ALLE RECEPTEN</li></a>
+			<a href="contact.html"><li class="nav_item">CONTACT</li></a>
+		</ul>
+	</div>
+	
+	<div id="header" class="over_header"></div>
+    
+	<div id="container">
+		<h2>CONTACT</h2>
+		<div class="content_center">
+            <form action="/action_page.php">
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                
+                <textarea id="subject" name="subject" placeholder="Give a suggestion for a recipe in this box.." style="height:200px"></textarea>
+                
+                <input type="submit" value="Submit" id="contact_submit">
+            </form>
+            
+        </div>
+	</div>
+	
+	<footer>
+        <div class="footer_top"></div>
+        <div class="footer_container">
+            <div class="footer_content">
+                <h4>KEEP IN TOUCH</h4>
+                <p>and subscribe to our newsletter</p><br>
+                <input type="text" id="email" name="email" placeholder="email@adres.nl">
+                <input type="submit" id="submit" value="Inschrijven">
+                <br>
+                <a href="facebook.com"><img src="Images/footer/facebook.png"></a>
+                <a href="instagram.com"><img src="Images/footer/instagram.png"></a>
+            </div>
+        </div>
+    </footer>
+	
+</body>
+</html>
